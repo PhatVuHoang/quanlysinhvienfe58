@@ -58,5 +58,8 @@ var Validation = function () {
         return true;
     }
 
+    this.kiemTraQRCode = function() {
+        console.log('check QR code');
+    }
 }
 
