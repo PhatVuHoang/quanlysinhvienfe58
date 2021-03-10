@@ -137,7 +137,7 @@ document.querySelector("#btnXacNhan").onclick = function () {
 
 window.xoaSinhVien = function (maSinhVien) {
   var promise = axios({
-    url: `http://svcy.myclass.vn/api/SinhVienApi/XoaSinhVien?maSinhVien=${maSinhVien}`,
+    url: `http://svcy.myclass.vn/api/QuanLyNhanVienApi/XoaNhanVien?maSinhVien=${maSinhVien}`,
     method: "DELETE",
     responseType: "json",
   });
